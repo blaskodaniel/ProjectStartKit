@@ -10,8 +10,10 @@
 
 ### Global
 > npm install --global gulp-cli
+
 > npm install -g less
 
 ## Run
 > gulp cleaner
+
 > gulp
