@@ -4,6 +4,6 @@ export class FirstClass {
         this.greeting = message;
     }
     greet() {
-        return "Class message:, " + this.greeting;
+        return "Class message: " + this.greeting;
     }
 }
