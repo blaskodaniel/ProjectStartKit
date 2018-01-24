@@ -6,10 +6,10 @@ var source = require('vinyl-source-stream'); // form gulp stream
 var tsify = require("tsify"); // for typescript compiler
 var uglify = require('gulp-uglify');
 var babel = require('gulp-babel');
-var cssmin = require('gulp-cssmin');
-var rename = require('gulp-rename');
+var cssmin = require('gulp-cssmin'); // css minify
+var rename = require('gulp-rename'); // css rename to .min 
 var log = require('fancy-log');
-var rimraf = require('rimraf');
+var rimraf = require('rimraf'); // delete dist folder
 var sourcemaps = require('gulp-sourcemaps');
 var buffer = require('vinyl-buffer');
 
